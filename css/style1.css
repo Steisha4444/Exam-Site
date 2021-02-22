@@ -1,0 +1,190 @@
+  
+body {
+    color: black;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-margin-top:50px;
+}
+section {
+    margin-bottom: 30px;
+}
+footer {
+    padding-top: 30px;
+    vertical-align: middle;
+    width: 100%;
+    background: black;
+}
+.transition-time {
+    transition: 700ms;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.banner-content {
+    color: white;
+    margin: auto;
+    top: 15%;
+    text-align: center;
+}
+.button {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    padding: 5px 25px;
+}
+.button:hover {
+    background:linear-gradient(0deg, #235ee7, #4ae7fa);
+    color: white;
+    text-decoration: none;
+}
+.top-background {
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+.buy-area{
+    padding-top: 40px;
+    background-color: #04091e;
+}
+.lnr {
+    font-size: 25px;
+    margin: 0 10px 0 0;
+    color: #007bff;
+}
+.top-cover{
+    height: 940px;
+}
+.feature-card{
+    background-color: #f7f7ff;
+    font-size: 13px;
+    transition: 500ms;
+    padding: 15px;
+    height: 120px;
+    margin-bottom: 15px;
+}
+.feature-card:hover{
+    box-shadow: 0px 5px 10px #007bff79;
+    background-color: white;
+}
+.review-card{
+    margin-bottom: 10px;
+    background-color: #f7f7ff;
+    transition: 500ms;
+    padding: 10px;
+}
+.review-card:hover{
+    box-shadow: 0px 5px 10px #007bff79;
+    background-color: #fff;
+}
+.desc {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+}
+.product-card {
+    text-align: center;
+    background: white;
+    margin: 15px auto 30px auto;
+    border-radius: 10px;
+    height: 380px;
+    padding: 30px 10px 300px 10px;
+}
+.photo {
+    width: 450px;
+}
+.about-area{
+    margin-top: 10px;
+    background: #f0f0ff;
+}
+.checked {
+    color: #007bff;
+}
+.pre-order-btn {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    padding: 2px 15px;
+}
+.pre-order-btn:hover{
+    text-decoration: none;
+    color: white;
+    background:linear-gradient(0deg, #235ee7, #4ae7fa);
+}
+.faq-area {
+    height: 500px;
+    background: url(../images/faq-bg.jpg) center;
+    background-size: cover;
+    margin-bottom: 0;
+} 
+.card-header {
+    background:linear-gradient(to right, #235ee7, #4ae7fa);
+    padding: 0;
+}
+.card-header button{
+    text-align: left;
+    color:white;
+    box-shadow: none;
+    height: 40px;
+    border: none;
+    background: transparent;
+    width: 100%;
+}
+.card-header button:focus{
+    outline: none;
+}
+.modal .close{
+    margin: 0 5px 0 0;
+}
+.modal-ok{
+    float: right;
+    margin: 0 5px 5px 0;
+    width: 100px;
+}
+.modal .close:focus{
+    outline: none;
+}
+.modal img{
+    margin: 5px;
+}
+.go-up {
+    position: fixed;
+    text-decoration: none;
+    padding: 3px;
+    right: 20px;
+    bottom: 10px;
+    border-radius: 5px;
+    opacity: 0%;
+    transition: 500ms;
+}
+.go-up:hover {
+    color: white;
+    opacity: 100%;
+}
+
+.outside {
+    background:#235ee7;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: thin solid black;
+}
+
+.inside {
+    margin-top: 7px;
+    margin-left: 2px;
+    width: 25px;
+    height: 25px;
+    border-right: 3px solid white;
+    border-top: 3px solid white;
+    transform: rotate(-45deg);
+}
